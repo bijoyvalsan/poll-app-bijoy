@@ -1,3 +1,4 @@
-const Questions = () => ('Hello Question')
+
+import Questions from './Questions';
 
 export default Questions;

@@ -4,7 +4,6 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
 `;
-
-export const StyledMain = styled.main`
-  padding: 0 48px;
+export const StyledTitle = styled.h2`
+  color: #424242;
 `;
