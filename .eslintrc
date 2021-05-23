@@ -1,0 +1,69 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "prettier",
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "prettier/prettier": "warn",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/require-default-props": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-fragments": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-underscore-dangle": [
+      "warn",
+      {
+        "allowAfterThis": true
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ],
+        "root": [
+          "./src"
+        ]
+      }
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": false,
+    "es6": true,
+    "jest": true,
+    "jasmine": true
+  },
+  "globals": {
+    "__dirname": true,
+    "document": true,
+    "global": true,
+    "module": true,
+    "process": true,
+    "window": true
+  }
+}

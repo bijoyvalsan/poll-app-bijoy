@@ -1,4 +1,3 @@
-
-import Questions from './Questions';
+import Questions from "./Questions.container";
 
 export default Questions;

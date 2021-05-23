@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { StyledHeader } from './Header.styled';
+import { StyledHeader } from "./Header.styled";
 
 const Header = () => (
   <StyledHeader>

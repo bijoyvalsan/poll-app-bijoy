@@ -4,8 +4,7 @@ export const QUESTIONS_FETCH = "QUESTIONS_FETCH";
 export const QUESTIONS_FETCH_SUCCSSES = "QUESTIONS_FETCH_SUCCSSES";
 export const QUESTIONS_FETCH_ERROR = "QUESTIONS_FETCH_ERROR";
 
-
-export const fetchMyOffers = () => dispatch => {
+export const getQuestions = () => dispatch => {
   dispatch({
     type: QUESTIONS_FETCH
   });
@@ -14,13 +13,12 @@ export const fetchMyOffers = () => dispatch => {
     .then(payload => {
       dispatch({
         type: QUESTIONS_FETCH_SUCCSSES,
-        payload,
+        payload
       });
     })
     .catch(() => {
       dispatch({
-        type: QUESTIONS_FETCH_ERROR,
+        type: QUESTIONS_FETCH_ERROR
       });
     });
 };
-

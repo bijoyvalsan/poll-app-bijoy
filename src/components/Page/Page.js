@@ -1,17 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import { StyledContainer, StyledTitle } from './Page.styled';
+import { StyledContainer, StyledTitle } from "./Page.styled";
 
 const Page = ({ title, children }) => (
   <StyledContainer>
-    {title ? (<StyledTitle>{title}</StyledTitle>) : null}
+    {title ? <StyledTitle>{title}</StyledTitle> : null}
     {children}
   </StyledContainer>
 );
 
 Page.defaultProps = {
-  title: undefined,
+  title: undefined
 };
 
 Page.propTypes = {

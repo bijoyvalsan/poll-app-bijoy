@@ -1,17 +1,12 @@
+const API_BASE_PATH = "https://polls.apiblueprint.org";
+
 export const fetchQuestions = () =>
-  fetch(
-    'https://polls.apiblueprint.org/questions'
-  ).then(response => response.json());
+  fetch(`${API_BASE_PATH}/questions`).then(response => response.json());
 
-export const fetchQuestionById = id =>
-  fetch(
-    `https://polls.apiblueprint.org/questions/${id}`
-  ).then(response => response.json());
+export const fetchQuestionById = urlPath =>
+  fetch(`${API_BASE_PATH}${urlPath}`).then(response => response.json());
 
-export const saveVote = (questionId, choiceId) =>
-  fetch(
-    `https://polls.apiblueprint.org/questions/${questionId}/choices/${choiceId}`, {
+export const saveVote = urlPath =>
+  fetch(`${API_BASE_PATH}${urlPath}`, {
     method: "POST"
   }).then(response => response.json());
-
-
