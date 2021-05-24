@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionDetails Component should render with default QuestionDetails styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-iCoGMd dYXbjY"
+  >
+    <p
+      class="sc-gKAaRy cOyPYX"
+    >
+      Question: Who am i ?
+    </p>
+    <div
+      class="sc-gtsrHT jpJA-dN"
+    >
+      <div
+        class="sc-dlnjwi eGFgcp"
+      >
+        <div
+          class="sc-hKFxyN zWQlH"
+        >
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              Choice 1: a
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              Votes: 0
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              Percentage: 0%
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <button
+              class="sc-bdnxRM kWuiVc"
+            >
+              Save Vote
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-dlnjwi eGFgcp"
+      >
+        <div
+          class="sc-hKFxyN zWQlH"
+        >
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              Choice 2: b
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              Votes: 1
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              Percentage: 100%
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <button
+              class="sc-bdnxRM kWuiVc"
+            >
+              Save Vote
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`QuestionDetailsSkeleton Component should render with default QuestionDetailsSkeleton styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-iCoGMd dYXbjY"
+  >
+    <div>
+      <div
+        class="sc-pNWdM sc-jrsJWt geUNDW ctAWuQ"
+        width="100px"
+      />
+    </div>
+    <div
+      class="sc-gtsrHT jpJA-dN"
+    >
+      <div
+        class="sc-dlnjwi eGFgcp"
+      >
+        <div
+          class="sc-hKFxyN zWQlH"
+        >
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-dlnjwi eGFgcp"
+      >
+        <div
+          class="sc-hKFxyN zWQlH"
+        >
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-dlnjwi eGFgcp"
+      >
+        <div
+          class="sc-hKFxyN zWQlH"
+        >
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-eCApnc jXgdNG"
+          >
+            <div
+              class="sc-jSFjdj hXDXkG"
+            >
+              <div
+                class="sc-pNWdM sc-jrsJWt cLVGPW ctAWuQ"
+                width="100px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

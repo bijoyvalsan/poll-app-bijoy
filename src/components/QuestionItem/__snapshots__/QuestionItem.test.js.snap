@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionItem Component should render with default QuestionItem styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdnxRM goBlJX"
+  >
+    <p
+      class="sc-hKFxyN kSMtjo"
+    >
+      Who am i ?
+    </p>
+    <span
+      class="sc-eCApnc PowZy"
+    >
+      Published: 12/12/1991 12:00
+    </span>
+    <span
+      class="sc-jSFjdj jwWkJz"
+    >
+      No. Choices: 3
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`QuestionItemSkeleton Component should render with default QuestionItemSkeleton styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdnxRM czhEWd"
+  >
+    <div
+      class="sc-gtsrHT sc-dlnjwi kPrUCA biuPjS"
+      width="60%"
+    />
+    <div
+      class="sc-gtsrHT sc-dlnjwi igZhXg fMRwIx"
+      width="90%"
+    />
+    <div
+      class="sc-gtsrHT sc-dlnjwi igZhXg fMRwIx"
+      width="90%"
+    />
+  </div>
+</DocumentFragment>
+`;

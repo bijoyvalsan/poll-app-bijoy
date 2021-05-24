@@ -20,6 +20,10 @@ const QuestionItem = ({ questionItem, onClick }) => (
   </StyledContainer>
 );
 
+QuestionItem.defaultProps = {
+  onClick: () => {}
+};
+
 QuestionItem.propTypes = {
   onClick: PropTypes.func,
   questionItem: PropTypes.shape({

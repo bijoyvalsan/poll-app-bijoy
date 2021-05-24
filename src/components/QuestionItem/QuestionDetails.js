@@ -43,6 +43,10 @@ const QuestionDetails = ({ question, onVote }) => (
   </StyledBox>
 );
 
+QuestionDetails.defaultProps = {
+  onVote: () => {}
+};
+
 QuestionDetails.propTypes = {
   onVote: PropTypes.func,
   question: PropTypes.shape({
