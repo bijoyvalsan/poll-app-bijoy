@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render with default Header styles 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-bdnxRM giWmnp"
+  >
+    <h1>
+      Poll App
+    </h1>
+  </header>
+</DocumentFragment>
+`;

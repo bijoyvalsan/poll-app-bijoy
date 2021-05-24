@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component should render with default button styles 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bdnxRM kWuiVc"
+  >
+    Test Button
+  </button>
+</DocumentFragment>
+`;

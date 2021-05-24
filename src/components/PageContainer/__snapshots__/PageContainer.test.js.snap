@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageContainer Component should render with default PageContainer styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdnxRM bgCCbn"
+  >
+    <div
+      class="sc-gtsrHT ebpWAq"
+    >
+      <h2
+        class="sc-dlnjwi ccgZlH"
+        data-testid="page-container-title"
+      >
+        test123
+      </h2>
+    </div>
+    <div>
+      123
+    </div>
+  </div>
+</DocumentFragment>
+`;

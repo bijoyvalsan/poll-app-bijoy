@@ -10,7 +10,9 @@ import {
 const PageContainer = ({ title, children, renderActions }) => (
   <StyledContainer>
     <StyledHeaderBox>
-      {title ? <StyledTitle>{title}</StyledTitle> : null}
+      {title ? (
+        <StyledTitle data-testid="page-container-title">{title}</StyledTitle>
+      ) : null}
       {renderActions ? renderActions() : null}
     </StyledHeaderBox>
     {children}
