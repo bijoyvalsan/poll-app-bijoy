@@ -2,7 +2,7 @@ import { connect } from "react-redux";
 
 import Questions from "./Questions";
 
-import { getQuestions } from "../../state/actions/questions";
+import { getQuestions, saveQuestion } from "../../state/actions/questions";
 import {
   getQuestionsForListPage,
   isQuestionsPageLoading
@@ -14,7 +14,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = {
-  getQuestions
+  getQuestions,
+  saveQuestion
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Questions);

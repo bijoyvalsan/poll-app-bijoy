@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import PropTypes from "prop-types";
-import { Question, Page } from "../../components";
+import { Question, PageContainer } from "../../components";
 
 const QuestionDetails = ({
   getQuestionById,
@@ -21,7 +21,7 @@ const QuestionDetails = ({
   };
 
   return (
-    <Page title="Question Details">
+    <PageContainer title="Question Details">
       <div>
         {isLoading && <Question.QuestionDetailsSkeleton />}
         {!isLoading && (
@@ -33,7 +33,7 @@ const QuestionDetails = ({
           </>
         )}
       </div>
-    </Page>
+    </PageContainer>
   );
 };
 
