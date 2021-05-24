@@ -13,7 +13,7 @@ export const getQuestions = () => dispatch => {
     type: QUESTIONS_FETCH
   });
 
-  fetchQuestions()
+  return fetchQuestions()
     .then(payload => {
       dispatch({
         type: QUESTIONS_FETCH_SUCCSSES,
@@ -32,7 +32,7 @@ export const saveQuestion = ({ question, choices }) => dispatch => {
     type: QUESTIONS_ADD
   });
 
-  addQuestion({ question, choices })
+  return addQuestion({ question, choices })
     .then(payload => {
       dispatch({
         type: QUESTIONS_ADD_SUCCSSES,

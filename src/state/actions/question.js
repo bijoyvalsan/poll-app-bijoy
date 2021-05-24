@@ -13,7 +13,7 @@ export const getQuestionById = urlPath => dispatch => {
     type: QUESTION_SINGLE_FETCH
   });
 
-  fetchQuestionById(urlPath)
+  return fetchQuestionById(urlPath)
     .then(payload => {
       dispatch({
         type: QUESTION_SINGLE_FETCH_SUCCSSES,
@@ -32,7 +32,7 @@ export const saveVoteForQuestion = urlPath => dispatch => {
     type: QUESTION_SINGLE_VOTE
   });
 
-  saveVote(urlPath)
+  return saveVote(urlPath)
     .then(payload => {
       dispatch({
         type: QUESTION_SINGLE_VOTE_SUCCSSES,
