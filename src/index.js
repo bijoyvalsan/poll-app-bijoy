@@ -7,6 +7,8 @@ import GlobalStyles from "./theme/GlobalStyles";
 import reportWebVitals from "./reportWebVitals";
 import configureStore from "./state/store";
 
+// to do create theme file and use from it
+
 const store = configureStore({});
 
 ReactDOM.render(

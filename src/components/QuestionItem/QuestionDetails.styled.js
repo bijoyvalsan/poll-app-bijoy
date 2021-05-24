@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../theme";
 
 export const StyledContainer = styled.div`
   background-color: white;
@@ -20,12 +21,20 @@ export const StyledContainerItem = styled.div`
   &:nth-child(even) {
     background-color: #f8f8f8;
   }
+  @media ${device.mobile} {
+    &:nth-child(even) {
+      background-color: white;
+    }
+  }
 `;
 
 export const StyledDeailsContainer = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  @media ${device.mobile} {
+    flex-direction: column;
+  }
 `;
 
 export const StyledDeailsColumn = styled.div`
@@ -35,6 +44,9 @@ export const StyledDeailsColumn = styled.div`
   flex: 1;
   min-width: 100px;
   box-sizing: border-box;
+  @media ${device.mobile} {
+    margin-bottom: 10px;
+  }
 `;
 
 export const StyledDeailsRow = styled.div`

@@ -1,4 +1,5 @@
 import styled, { keyframes, css } from "styled-components";
+import { device } from "../../theme";
 
 const pulse = keyframes`
   0% {
@@ -22,6 +23,10 @@ export const StyledContainer = styled.div`
   min-width: 300px;
   box-sizing: border-box;
   cursor: ${({ pointer }) => (pointer ? "pointer" : "inherit")};
+  @media ${device.mobile} {
+    max-width: 250px;
+    min-width: 250px;
+  }
 `;
 
 const StyledItem = styled.div`
