@@ -55,18 +55,21 @@ const Questions = ({ getQuestions, isLoading, questions, saveQuestion }) => {
       <PageContainer title="Add Question">
         <StyledAddQuestionContainer>
           <Textbox
+            id="txt-question"
             label="New Question"
             placeholder="Add Question here"
             value={newQuestionValue}
             onChange={handleOnQuestionChange}
           />
           <Textbox
+            id="txt-question-choice"
             label="Choices"
             placeholder="Choices seperated by comma"
             value={newQuestionChoiceValue}
             onChange={handleOnQuestionChoiceChange}
           />
           <AddQuestion.Button
+            data-testid="add-question-btn"
             disabled={disableAddQuestionBtn}
             onClick={handleOnSaveQuestionClick}
           >

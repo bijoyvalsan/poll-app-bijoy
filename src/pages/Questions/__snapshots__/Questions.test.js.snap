@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Questions Component should render with default Questions styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bqGGPW bvGpDM"
+  >
+    <div
+      class="sc-ksluID eHYyPg"
+    >
+      <h2
+        class="sc-hBMUJo igLrVS"
+        data-testid="page-container-title"
+      >
+        Add Question
+      </h2>
+    </div>
+    <div
+      class="sc-iemWCZ jDoqWm"
+    >
+      <p
+        class="sc-fnVZcZ idQmOh"
+      >
+        New Question
+      </p>
+      <div
+        class="sc-fFSPTT fktQCA"
+      >
+        <input
+          aria-label="Add Question here"
+          data-testid="txt-question"
+          id="txt-question"
+          placeholder="Add Question here"
+          tabindex="0"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="sc-fnVZcZ idQmOh"
+      >
+        Choices
+      </p>
+      <div
+        class="sc-fFSPTT fktQCA"
+      >
+        <input
+          aria-label="Choices seperated by comma"
+          data-testid="txt-question-choice"
+          id="txt-question-choice"
+          placeholder="Choices seperated by comma"
+          tabindex="0"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="sc-iCoGMd jtHMFE"
+        data-testid="add-question-btn"
+        disabled=""
+      >
+        Add Question
+      </button>
+    </div>
+  </div>
+  <div
+    class="sc-bqGGPW bvGpDM"
+  >
+    <div
+      class="sc-ksluID eHYyPg"
+    >
+      <h2
+        class="sc-hBMUJo igLrVS"
+        data-testid="page-container-title"
+      >
+        Questions
+      </h2>
+    </div>
+    <div
+      class="sc-bkbkJK iEoYTE"
+    >
+      <div
+        class="sc-gtsrHT cgfNFa"
+      >
+        <p
+          class="sc-eCApnc dejVSI"
+        >
+          Who am i ?
+        </p>
+        <span
+          class="sc-jSFjdj jwWkJz"
+        >
+          Published: 10/20/2021
+        </span>
+        <span
+          class="sc-gKAaRy hZEQAb"
+        >
+          No. Choices: 3
+        </span>
+      </div>
+      <div
+        class="sc-gtsrHT cgfNFa"
+      >
+        <p
+          class="sc-eCApnc dejVSI"
+        >
+          Who am i ?
+        </p>
+        <span
+          class="sc-jSFjdj jwWkJz"
+        >
+          Published: 10/20/2021
+        </span>
+        <span
+          class="sc-gKAaRy hZEQAb"
+        >
+          No. Choices: 3
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Questions Component should render with default QuestionsSkelton styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bqGGPW bvGpDM"
+  >
+    <div
+      class="sc-ksluID eHYyPg"
+    >
+      <h2
+        class="sc-hBMUJo igLrVS"
+        data-testid="page-container-title"
+      >
+        Add Question
+      </h2>
+    </div>
+    <div
+      class="sc-iemWCZ jDoqWm"
+    >
+      <p
+        class="sc-fnVZcZ idQmOh"
+      >
+        New Question
+      </p>
+      <div
+        class="sc-fFSPTT fktQCA"
+      >
+        <input
+          aria-label="Add Question here"
+          data-testid="txt-question"
+          id="txt-question"
+          placeholder="Add Question here"
+          tabindex="0"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="sc-fnVZcZ idQmOh"
+      >
+        Choices
+      </p>
+      <div
+        class="sc-fFSPTT fktQCA"
+      >
+        <input
+          aria-label="Choices seperated by comma"
+          data-testid="txt-question-choice"
+          id="txt-question-choice"
+          placeholder="Choices seperated by comma"
+          tabindex="0"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="sc-iCoGMd jtHMFE"
+        data-testid="add-question-btn"
+        disabled=""
+      >
+        Add Question
+      </button>
+    </div>
+  </div>
+  <div
+    class="sc-bqGGPW bvGpDM"
+  >
+    <div
+      class="sc-ksluID eHYyPg"
+    >
+      <h2
+        class="sc-hBMUJo igLrVS"
+        data-testid="page-container-title"
+      >
+        Questions
+      </h2>
+    </div>
+    <div
+      class="sc-bkbkJK iEoYTE"
+    >
+      <div
+        class="sc-gtsrHT iCUPGs"
+      >
+        <div
+          class="sc-dlnjwi sc-hKFxyN jkEfMo bGfFQW"
+          width="60%"
+        />
+        <div
+          class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+          width="90%"
+        />
+        <div
+          class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+          width="90%"
+        />
+      </div>
+      <div
+        class="sc-gtsrHT iCUPGs"
+      >
+        <div
+          class="sc-dlnjwi sc-hKFxyN jkEfMo bGfFQW"
+          width="60%"
+        />
+        <div
+          class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+          width="90%"
+        />
+        <div
+          class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+          width="90%"
+        />
+      </div>
+      <div
+        class="sc-gtsrHT iCUPGs"
+      >
+        <div
+          class="sc-dlnjwi sc-hKFxyN jkEfMo bGfFQW"
+          width="60%"
+        />
+        <div
+          class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+          width="90%"
+        />
+        <div
+          class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+          width="90%"
+        />
+      </div>
+      <div
+        class="sc-gtsrHT iCUPGs"
+      >
+        <div
+          class="sc-dlnjwi sc-hKFxyN jkEfMo bGfFQW"
+          width="60%"
+        />
+        <div
+          class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+          width="90%"
+        />
+        <div
+          class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+          width="90%"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

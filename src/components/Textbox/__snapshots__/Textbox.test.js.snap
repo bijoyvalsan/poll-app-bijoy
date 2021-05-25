@@ -12,7 +12,8 @@ exports[`Textbox Component should render with default Textbox styles 1`] = `
   >
     <input
       aria-label="search"
-      data-testid="text-input"
+      data-testid="txt-search"
+      id="txt-search"
       placeholder="search"
       tabindex="0"
       type="text"

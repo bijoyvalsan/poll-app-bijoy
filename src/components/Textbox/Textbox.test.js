@@ -6,6 +6,7 @@ import Textbox from "./Textbox";
 describe("Textbox Component", () => {
   it("should render with default Textbox styles", () => {
     const mockData = {
+      id: "txt-search",
       placeholder: "search",
       value: "",
       label: "search",

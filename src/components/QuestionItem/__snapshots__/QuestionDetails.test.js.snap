@@ -51,6 +51,7 @@ exports[`QuestionDetails Component should render with default QuestionDetails st
           >
             <button
               class="sc-bdnxRM kWuiVc"
+              data-testid="save-vote-0"
             >
               Save Vote
             </button>
@@ -95,6 +96,7 @@ exports[`QuestionDetails Component should render with default QuestionDetails st
           >
             <button
               class="sc-bdnxRM kWuiVc"
+              data-testid="save-vote-1"
             >
               Save Vote
             </button>

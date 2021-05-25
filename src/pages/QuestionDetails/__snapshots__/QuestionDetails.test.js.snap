@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionDetails Component should render with default QuestionDetails styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bqGGPW bvGpDM"
+  >
+    <div
+      class="sc-ksluID eHYyPg"
+    >
+      <h2
+        class="sc-hBMUJo igLrVS"
+        data-testid="page-container-title"
+      >
+        Question Details
+      </h2>
+    </div>
+    <div>
+      <div
+        class="sc-dIsUp jCGQWg"
+      >
+        <p
+          class="sc-crzoAE fvbMtY"
+        >
+          Question: Who am i ?
+        </p>
+        <div
+          class="sc-fujyAs fQbUxZ"
+        >
+          <div
+            class="sc-pNWdM jgNFqv"
+          >
+            <div
+              class="sc-jrsJWt cKvXvH"
+            >
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  Choice 1: a
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  Votes: 0
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  Percentage: 0%
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <button
+                  class="sc-iCoGMd jtHMFE"
+                  data-testid="save-vote-0"
+                >
+                  Save Vote
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-pNWdM jgNFqv"
+          >
+            <div
+              class="sc-jrsJWt cKvXvH"
+            >
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  Choice 2: b
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  Votes: 1
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  Percentage: 100%
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <button
+                  class="sc-iCoGMd jtHMFE"
+                  data-testid="save-vote-1"
+                >
+                  Save Vote
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`QuestionDetails Component should render with default QuestionDetailsSkelton styles 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bqGGPW bvGpDM"
+  >
+    <div
+      class="sc-ksluID eHYyPg"
+    >
+      <h2
+        class="sc-hBMUJo igLrVS"
+        data-testid="page-container-title"
+      >
+        Question Details
+      </h2>
+    </div>
+    <div>
+      <div
+        class="sc-dIsUp jCGQWg"
+      >
+        <div>
+          <div
+            class="sc-dlnjwi sc-hKFxyN jkEfMo goIlw"
+            width="100px"
+          />
+        </div>
+        <div
+          class="sc-fujyAs fQbUxZ"
+        >
+          <div
+            class="sc-pNWdM jgNFqv"
+          >
+            <div
+              class="sc-jrsJWt cKvXvH"
+            >
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-pNWdM jgNFqv"
+          >
+            <div
+              class="sc-jrsJWt cKvXvH"
+            >
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-pNWdM jgNFqv"
+          >
+            <div
+              class="sc-jrsJWt cKvXvH"
+            >
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+              <div
+                class="sc-kEqXSa hRaqZx"
+              >
+                <div
+                  class="sc-iqAclL kizGNn"
+                >
+                  <div
+                    class="sc-dlnjwi sc-hKFxyN hEEJwU goIlw"
+                    width="100px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

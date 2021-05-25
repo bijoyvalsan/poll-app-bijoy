@@ -32,7 +32,10 @@ const QuestionDetails = ({ question, onVote }) => (
               <StyledDeailsRow>Percentage: {c.percentage}%</StyledDeailsRow>
             </StyledDeailsColumn>
             <StyledDeailsColumn>
-              <SaveVote.Button onClick={onVote(c.url)}>
+              <SaveVote.Button
+                data-testid={`save-vote-${i}`}
+                onClick={onVote(c.url)}
+              >
                 Save Vote
               </SaveVote.Button>
             </StyledDeailsColumn>

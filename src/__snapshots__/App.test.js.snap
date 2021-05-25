@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should render 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dIvrsQ czLRA-d"
+  >
+    <header
+      class="sc-bdnxRM giWmnp"
+    >
+      <h1>
+        Poll App
+      </h1>
+    </header>
+    <main
+      class="sc-hHEiqL kDa-dOl"
+      id="main"
+    >
+      <div
+        class="sc-bqGGPW bvGpDM"
+      >
+        <div
+          class="sc-ksluID eHYyPg"
+        >
+          <h2
+            class="sc-hBMUJo igLrVS"
+            data-testid="page-container-title"
+          >
+            Add Question
+          </h2>
+        </div>
+        <div
+          class="sc-iemWCZ jDoqWm"
+        >
+          <p
+            class="sc-fnVZcZ idQmOh"
+          >
+            New Question
+          </p>
+          <div
+            class="sc-fFSPTT fktQCA"
+          >
+            <input
+              aria-label="Add Question here"
+              data-testid="txt-question"
+              id="txt-question"
+              placeholder="Add Question here"
+              tabindex="0"
+              type="text"
+              value=""
+            />
+          </div>
+          <p
+            class="sc-fnVZcZ idQmOh"
+          >
+            Choices
+          </p>
+          <div
+            class="sc-fFSPTT fktQCA"
+          >
+            <input
+              aria-label="Choices seperated by comma"
+              data-testid="txt-question-choice"
+              id="txt-question-choice"
+              placeholder="Choices seperated by comma"
+              tabindex="0"
+              type="text"
+              value=""
+            />
+          </div>
+          <button
+            class="sc-iCoGMd jtHMFE"
+            data-testid="add-question-btn"
+            disabled=""
+          >
+            Add Question
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-bqGGPW bvGpDM"
+      >
+        <div
+          class="sc-ksluID eHYyPg"
+        >
+          <h2
+            class="sc-hBMUJo igLrVS"
+            data-testid="page-container-title"
+          >
+            Questions
+          </h2>
+        </div>
+        <div
+          class="sc-bkbkJK iEoYTE"
+        >
+          <div
+            class="sc-gtsrHT iCUPGs"
+          >
+            <div
+              class="sc-dlnjwi sc-hKFxyN jkEfMo bGfFQW"
+              width="60%"
+            />
+            <div
+              class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+              width="90%"
+            />
+            <div
+              class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+              width="90%"
+            />
+          </div>
+          <div
+            class="sc-gtsrHT iCUPGs"
+          >
+            <div
+              class="sc-dlnjwi sc-hKFxyN jkEfMo bGfFQW"
+              width="60%"
+            />
+            <div
+              class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+              width="90%"
+            />
+            <div
+              class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+              width="90%"
+            />
+          </div>
+          <div
+            class="sc-gtsrHT iCUPGs"
+          >
+            <div
+              class="sc-dlnjwi sc-hKFxyN jkEfMo bGfFQW"
+              width="60%"
+            />
+            <div
+              class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+              width="90%"
+            />
+            <div
+              class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+              width="90%"
+            />
+          </div>
+          <div
+            class="sc-gtsrHT iCUPGs"
+          >
+            <div
+              class="sc-dlnjwi sc-hKFxyN jkEfMo bGfFQW"
+              width="60%"
+            />
+            <div
+              class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+              width="90%"
+            />
+            <div
+              class="sc-dlnjwi sc-hKFxyN hEEJwU eVeVZB"
+              width="90%"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;

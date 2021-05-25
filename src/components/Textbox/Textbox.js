@@ -3,13 +3,14 @@ import PropTypes from "prop-types";
 
 import { StyledContainer, StyledLabelText } from "./Textbox.styled";
 
-const Textbox = ({ placeholder, onChange, value, label }) => {
+const Textbox = ({ placeholder, onChange, value, label, id }) => {
   return (
     <>
       {label && <StyledLabelText>{label}</StyledLabelText>}
       <StyledContainer>
         <input
-          data-testid="text-input"
+          id={id}
+          data-testid={id}
           aria-label={placeholder}
           onChange={onChange}
           tabIndex="0"
@@ -29,6 +30,7 @@ Textbox.defaultProps = {
 };
 
 Textbox.propTypes = {
+  id: PropTypes.string.isRequired,
   placeholder: PropTypes.string,
   value: PropTypes.string,
   label: PropTypes.string,
